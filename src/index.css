@@ -18,6 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -26,6 +30,10 @@ body {
   padding: 0;
 }
 
-* {
-  box-sizing: border-box;
+#title {
+  transition: 0.3s ease;
+}
+
+#title:hover {
+  text-shadow: #4800cc 4px 4px 20px;
 }
