@@ -37,3 +37,41 @@ body {
 #title:hover {
   text-shadow: #4800cc 4px 4px 20px;
 }
+
+.card-category:hover .card-category-image {
+  transform: scale(1.1);
+}
+
+.card-category[data-id='dragon-ball'] {
+  box-shadow: 2px 2px 8px orange;
+}
+
+.card-category[data-id='dragon-ball']:hover {
+  box-shadow: 2px 2px 18px orange;
+}
+
+.card-category[data-id='demon-slayer'] {
+  box-shadow: 2px 2px 8px blue;
+}
+
+.card-category[data-id='demon-slayer']:hover {
+  box-shadow: 2px 2px 18px blue;
+}
+
+.animate-disappear {
+  animation-name: disappear;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

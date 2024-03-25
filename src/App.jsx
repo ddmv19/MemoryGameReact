@@ -1,4 +1,5 @@
 import '@fontsource/fredoka-one'
+import { SelectCategory } from './components/SelectCategory'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       >
         Memory Game
       </h1>
+      <SelectCategory />
     </main>
   )
 }
