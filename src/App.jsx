@@ -1,5 +1,6 @@
 import '@fontsource/fredoka-one'
 import { SelectCategory } from './components/SelectCategory'
+import Board from './components/Board'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         Memory Game
       </h1>
       <SelectCategory />
+      <Board />
     </main>
   )
 }
