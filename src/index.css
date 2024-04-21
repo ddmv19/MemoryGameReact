@@ -58,6 +58,18 @@ body {
   box-shadow: 2px 2px 18px blue;
 }
 
+.card-category[data-id='jujutsu-kaisen'] {
+  box-shadow: 2px 2px 8px purple;
+}
+
+.card-category[data-id='jujutsu-kaisen']:hover {
+  box-shadow: 2px 2px 18px purple;
+}
+
+.card-board-image:hover .interrogation-icon {
+  transform: scale(1.2);
+}
+
 .animate-disappear {
   animation-name: disappear;
   animation-duration: 0.5s;
@@ -72,6 +84,6 @@ body {
 
   100% {
     opacity: 0;
-    visibility: hidden;
+    display: none;
   }
 }
